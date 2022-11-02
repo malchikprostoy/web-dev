@@ -3,8 +3,11 @@
 <meta charset="utf-8">
 <head>
   <title>My web site</title>
-  <link rel="stylesheet" href="https://malchikprostoy.github.io/web-dev/main.css">
+  <link rel="stylesheet" href="/Users/HP/WEB/Homework/css/main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   
   <style>
@@ -47,32 +50,34 @@
 </head>
 <body>
 
+
+  
 <ul id="navbar">
-  <li><a href="https://malchikprostoy.github.io/web-dev/site-1/index.html">1ый мир</a>
+  <li><a href="/Users/HP/WEB/Homework/html/index1.html">1ый мир</a>
     <ul>
       <li><a href="https://krut-art.ru/wp-content/uploads/2021/06/YA-ne-pomeshayu-kartinka.jpg">Performance</a></li>
       <li><a href="https://ru.wiktionary.org/wiki/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82">About</a></li>
     </ul>
   </li>
-  <li><a href="https://malchikprostoy.github.io/web-dev/site-2/index.html">2ой мир</a>
+  <li><a href="/Users/HP/WEB/Homework/html/index2.html">2ой мир</a>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=fT9ZHpxq4A0">Performance</a></li>
       <li><a href="https://lifehacker.ru/kak-perestat-tratit-vremya-vpustuyu/">About</a></li>
     </ul>
   </li>
-  <li><a href="https://malchikprostoy.github.io/web-dev/site-3/index.html">3ий мир</a>
+  <li><a href="/Users/HP/WEB/Homework/html/index3.html">3ий мир</a>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=RGZQwvwwPa0">Performance</a></li>
       <li><a href="https://sektascience.com/articles/lifestyle/motivation-types/">About</a></li>
     </ul>
   </li>
-  <li><a href="https://malchikprostoy.github.io/web-dev/site-4/index.html">4ый мир</a>
+  <li><a href="/Users/HP/WEB/Homework/html/index4.html">4ый мир</a>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=3BqB9ocb-c4">Performance</a></li>
       <li><a href="https://indicator.ru/label/zemlya">About</a></li>
     </ul>
   </li>
-  <li><a href="https://malchikprostoy.github.io/web-dev/site-5/index.html">5ый мир</a>
+  <li><a href="/Users/HP/WEB/Homework/html/index5.html">5ый мир</a>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=csquJ4wddWU">Performance</a></li>
       <li><a href="https://ru.wikiquote.org/wiki/%D0%94%D0%BE%D0%B6%D0%B4%D1%8C">About</a></li>
@@ -80,7 +85,62 @@
   </li>
 </ul>
 
+<div class="container">
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="https://cdn.britannica.com/40/94540-050-789B2064/Palm-trees-skyline-Los-Angeles-background.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://cdn.britannica.com/59/94459-050-DBA42467/Skyline-Chicago.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkyNDQ5NzY0ODY2OTI1OTgw/gettyimages-1395722285.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
 <div class="page"> </div>
+
+
+
 
 </body>
 </html>
