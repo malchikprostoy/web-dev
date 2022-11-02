@@ -1,0 +1,40 @@
+div {
+    min-width: 500px;
+    min-height: 800px;
+}
+
+.page {
+    background-image: url(https://kartinkin.net/uploads/posts/2021-04/thumbs/1617585036_24-p-fon-dlya-saita-temnii-24.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.page1 {
+    background-image: url(https://krot.info/uploads/posts/2020-01/1579319462_1-9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.page2 {
+    background-image: url(https://celes.club/uploads/posts/2022-05/thumbs/1652914591_25-celes-club-p-fon-vremya-krasivie-25.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.page3 {
+    background-image: url(https://klike.net/uploads/posts/2022-09/1663657257_a.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.page4 {
+    background-image: url(https://celes.club/uploads/posts/2022-05/1653383305_42-celes-club-p-fon-zelenaya-planeta-krasivie-42.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.page5 {
+    background-image: url(https://oir.mobi/uploads/posts/2021-03/1616566721_36-p-fon-dozhd-53.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
